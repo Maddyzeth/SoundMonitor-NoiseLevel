@@ -1,5 +1,5 @@
 module "noise_level" {
-  source = "git::https://github.com/AlienX456/SoundMonitor-IAC-Infrastructure-Common.git//use-cases/ecs_s3_kafka_services?ref=3.0.7-rc"
+  source = "git::https://github.com/Maddyzeth/SoundMonitor-IAC-Infrastructure-Common.git//use-cases/ecs_s3_kafka_services?ref=4.0.0"
 
   // User vars
   cpu             = "256"
